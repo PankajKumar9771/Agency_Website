@@ -1,0 +1,265 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+  /* overflow-x: hidden; Hide horizontal scrollbar */
+}
+
+#nav {
+  position: sticky !important;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  padding: 0 !important;
+  width: 100%; /* Make the navbar full width */
+  /* overflow: hidden; Hide content overflow */
+}
+.navbar-nav li {
+  padding: 0 0.3rem;
+}
+
+.navbar-nav li a {
+  color: white !important;
+  font-weight: 600;
+  float: right !important;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.logo img {
+  height: 1.25rem;
+  border-radius: 1rem;
+  width: auto;
+  max-width: 100%; /* Make the image responsive */
+}
+
+.fa-bars {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+/* ------------------------banner----------------------------- */
+#banner {
+  margin-top: -1px;
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  color: #fff;
+  padding-top: 5%;
+}
+
+.promo-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 6.25rem;
+}
+.play {
+  width: 45px;
+  margin: 20px;
+}
+
+#banner a {
+  color: white;
+  text-decoration: none;
+}
+
+/* 
+@media screen and (max-width: 767px) {
+  .img-fluid {
+    margin-top: 0;
+  }
+  /* #banner {
+    margin-top: -22rem !important;
+  }
+} */
+
+.bottom-img {
+  width: 100%;
+}
+
+/* -------------------------------------services-------------------------------------- */
+#service {
+  padding: 80px 0;
+}
+.services-img {
+  width: 100px;
+  margin-top: 20px;
+}
+
+.services h4 {
+  padding: 20px;
+  margin-top: 22px;
+  text-transform: uppercase;
+}
+
+.title::before {
+  content: "";
+  background-color: #7b1798;
+  height: 0.3125rem;
+  width: 12.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-bottom: 40px; */
+  display: block;
+  /* if we are not write this statement then code is inline and then we write a content to show on desktop */
+  transform: translateY(3.9375rem);
+}
+.title::after {
+  content: "";
+  background-color: #7b1798;
+  height: 0.625rem;
+  width: 3.125rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  /* if we are not write this statement then code is inline and then we write a content to show on desktop */
+  transform: translateY(0.5rem);
+}
+.btn {
+  margin-bottom: 12px;
+}
+
+#services .btn-primary {
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+/* about us                              ------------------------------------------------ */
+#about-us {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.space {
+  margin-top: 3rem;
+}
+.title {
+  margin-bottom: 4rem;
+}
+
+.col-md-6 h3 {
+  margin-bottom: 1rem;
+}
+
+.col-md-6 li {
+  line-height: 1.7rem;
+}
+.network-img {
+  height: 18rem;
+}
+
+/* ------------------------------testomonials---------------------------------- */
+#testomonials {
+  padding: 50px 0;
+}
+
+.testomonials {
+  border-left: 4px solid #7b1798;
+  margin: 50px 0;
+}
+
+.testomonials img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  margin: 0 10px;
+}
+
+.user-details {
+  display: inline-block;
+  font-size: 12px;
+}
+
+/* ------------------------Social---------------------------------------- */
+#social {
+  padding: 80px 0px;
+  background-color: #f8f9fa;
+}
+
+.social-media a img {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.social-media a img:hover {
+  transform: translateY(-10px);
+}
+
+#footer {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  color: white;
+}
+
+#footer img {
+  width: 100%;
+}
+
+.footerbox {
+  padding: 20px;
+}
+
+.footerbox img {
+  height: 66px;
+  margin-bottom: 20px;
+}
+
+.footerbox .fa-solid {
+  margin-right: 8px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 2px;
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.footerbox .form-control {
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+  margin-top: 25px;
+  max-width: 250px;
+}
+
+.footerbox .btn-primary {
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+  margin-top: 30px;
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+
+hr{
+  background-color: white;
+
+}
+
+.copyrigth{
+padding-bottom: 20px;
+margin-bottom: 0;
+}
+
+@media screen and (max-width: 388px) {
+ .network-img{
+  
+    max-width: 100%;
+    height: auto;
+
+ }
+}
